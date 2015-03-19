@@ -1,0 +1,12 @@
+---
+declared-services:
+  tradeoff-analytics-service:
+    label: tradeoff_analytics
+    plan: free
+applications:
+- services:
+  - tradeoff-analytics-service
+  name: siddartha-123123
+  command: node app.js
+  path: .
+  memory: 128M

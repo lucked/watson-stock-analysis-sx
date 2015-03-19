@@ -1,0 +1,40 @@
+//- layout.jade
+doctype html
+html(lang='en')
+  head
+    block title
+      title Tradeoff Analytics
+
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+
+    link(rel='shortcut icon', href='/images/favicon.ico', type='image/x-icon')
+    link(rel='icon', href='/images/favicon.ico', type='image/x-icon')
+    link(rel='stylesheet', href='/css/watson-bootstrap-dark.css')
+    link(rel='stylesheet', href='/css/banner.css')
+    link(rel='stylesheet', href='/css/style.css')
+
+  body
+    div.container
+      div.row
+        div.col-lg-12
+          div.row.top-nav
+            div.col-lg-12
+              h3.heading.left 
+                span Watson Tradeoff
+                | : Stocks Analysis
+              
+              
+          div.row.header(style='padding-bottom:0px;')
+            
+            
+            
+            
+            
+            
+      block row-content
+
+    script(type='text/javascript', src="/js/jquery-1.11.1.min.js")
+    script(type='text/javascript', src='http://ta-cdn.mybluemix.net/TradeoffAnalytics.js')
+    script(src='js/index.js')

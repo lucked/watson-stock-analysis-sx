@@ -1,0 +1,316 @@
+{
+  "subject": "StockXchange Best buy by Watson",
+  "columns": [
+    {
+      "key": "stock_current",
+      "full_name": "Current Price",
+      "type": "NUMERIC",
+      "is_objective": true,
+      "goal": "MIN"
+    },
+    {
+      "key": "stock_day_high",
+      "full_name": "DAY HIGH",
+      "type": "NUMERIC",
+      "is_objective": false,
+      "goal": "MAX"
+    },
+    {
+      "key" : "stock_day_low",
+      "full_name" : "DAY LOW",
+      "type" : "NUMERIC",
+      "is_objective" : false,
+      "goal" : "MAX"
+    },
+    {
+      "key" : "stock_sold",
+      "full_name" : "STOCKS SOLD",
+      "type" : "NUMERIC",
+      "is_objective" : false,
+      "goal" : "MAX"
+    },
+    {
+      "key" : "diff",
+      "full_name" : "CLOSENESS TO DAY LOW",
+      "type" : "NUMERIC",
+      "is_objective" : "true",
+      "goal" : "MIN"
+    }
+
+  ],
+  "options": [
+    {
+      "key": "0",
+      "name": "INFY",
+      "values": {
+        "stock_current" : 2233,
+        "stock_day_low" : 2262,
+        "stock_day_high": 2121,
+        "stock_sold"    : 2530,
+        "diff"          : 0.01 
+      },
+      "description_html": "",
+      "app_data": {}
+    },
+    {
+      "key": "1",
+      "name": "PNB",
+      "values": {
+        "stock_current" : 168,
+        "stock_day_low" : 167,
+        "stock_day_high": 170.3,
+        "stock_sold"    : 620,
+        "diff"          : 0.005
+      },
+      "description_html": "",
+      "app_data": {}
+    },
+    {
+      "key": "2",
+      "name": "WIPRO",
+      "values": {
+        "stock_current" : 629.25,
+        "stock_day_low" : 628.75,
+        "stock_day_high": 6488,
+        "stock_sold"    : 4600,
+        "diff"          : 0.09 
+      },
+      "description_html": "",
+      "app_data": {}
+    },
+    {
+      "key": "3",
+      "name": "TCS",
+      "values": {
+        "stock_current" : 2556,
+        "stock_day_low" : 2551,
+        "stock_day_high": 2599,
+        "stock_sold"    : 63,
+        "diff"          : 0.002 
+      },
+      "description_html": "",
+      "app_data": {}
+    },
+    {
+      "key": "4",
+      "name": "HDFC",
+      "values": {
+        "stock_current" : 1325,
+        "stock_day_low" : 1315,
+        "stock_day_high": 1343,
+        "stock_sold"    : 320,
+        "diff"          : 0.02 
+      },
+      "description_html": "",
+      "app_data": {}
+    },
+    {
+      "key": "5",
+      "name": "AXISBANK",
+      "values": {
+        "stock_current" : 579,
+        "stock_day_low" : 575.75,
+        "stock_day_high": 585.8,
+        "stock_sold"    : 640,
+        "diff"          : 0.008 
+      },
+      "description_html": "",
+      "app_data": {}
+    },
+    {
+      "key": "6",
+      "name": "ACC",
+      "values": {
+        "stock_current" : 1580,
+        "stock_day_low" : 1579,
+        "stock_day_high": 1628.95,
+        "stock_sold"    : 930,
+        "diff"          : 2 
+      },
+      "description_html": "",
+      "app_data": {}
+    },
+    {
+      "key": "7",
+      "name": "ABB",
+      "values": {
+        "stock_current" : 1271,
+        "stock_day_low" : 1265,
+        "stock_day_high": 1289,
+        "stock_sold"    : 150,
+        "diff"          : 0.41 
+      },
+      "description_html": "",
+      "app_data": {}
+    },
+    {
+      "key": "8",
+      "name": "SBIN",
+      "values": {
+        "stock_current" : 286.7,
+        "stock_day_low" : 282,
+        "stock_day_high": 288.45,
+        "stock_sold"    : 100,
+        "diff"          : 0.32 
+      },
+      "description_html": "",
+      "app_data": {}
+    },
+    {
+      "key": "9",
+      "name": "HCLTECH",
+      "values": {
+        "stock_current" : 2010,
+        "stock_day_low" : 1995.5,
+        "stock_day_high": 2052.2,
+        "stock_sold"    : 737,
+        "diff"          : 1.1 
+      },
+      "description_html": "",
+      "app_data": {}
+    },
+    {
+      "key": "10",
+      "name": "HINDUNILIVR",
+      "values": {
+        "stock_current" : 921.3,
+        "stock_day_low" : 911,
+        "stock_day_high": 937.25,
+        "stock_sold"    : 720,
+        "diff"          : 0.4 
+      },
+      "description_html": "",
+      "app_data": {}
+    },
+    {
+      "key": "11",
+      "name": "TATAPOWER",
+      "values": {
+        "stock_current" : 80.2,
+        "stock_day_low" : 78.85,
+        "stock_day_high": 82.1,
+        "stock_sold"    : 120,
+        "diff"          : 2 
+      },
+      "description_html": "",
+      "app_data": {}
+    },
+    {
+      "key": "12",
+      "name": "TATASTEEL",
+      "values": {
+        "stock_current" : 329.9,
+        "stock_day_low" : 329.34,
+        "stock_day_high": 335.7,
+        "stock_sold"    : 720,
+        "diff"          : 0.01
+      },
+      "description_html": "",
+      "app_data": {}
+    },
+    {
+      "key": "13",
+      "name": "TECHM",
+      "values": {
+        "stock_current" : 2806.5,
+        "stock_day_low" : 2790,
+        "stock_day_high": 2880,
+        "stock_sold"    : 440,
+        "diff"          : 1.4
+      },
+      "description_html": "",
+      "app_data": {}
+    },
+    {
+      "key": "14",
+      "name": "RELIENCE",
+      "values": {
+        "stock_current" : 868.95,
+        "stock_day_low" : 854.7,
+        "stock_day_high": 872.25,
+        "stock_sold"    : 0,
+        "diff"          : 0.5
+      },
+      "description_html": "",
+      "app_data": {}
+    },
+    {
+      "key": "15",
+      "name": "ICICIBANK",
+      "values": {
+        "stock_current" : 333.35,
+        "stock_day_low" : 331.05,
+        "stock_day_high": 336.55,
+        "stock_sold"    : 500,
+        "diff"          : 2
+      },
+      "description_html": "",
+      "app_data": {}
+    },
+    {
+      "key": "16",
+      "name": "LT",
+      "values": {
+        "stock_current" : 1695,
+        "stock_day_low" : 1692.7,
+        "stock_day_high": 1727.5,
+        "stock_sold"    : 245,
+        "diff"          : 0.06
+      },
+      "description_html": "",
+      "app_data": {}
+    },
+    {
+      "key": "17",
+      "name": "SIEMENS",
+      "values": {
+        "stock_current" : 1398,
+        "stock_day_low" : 1396.8,
+        "stock_day_high": 1439,
+        "stock_sold"    : 55,
+        "diff"          : 0.5
+      },
+      "description_html": "",
+      "app_data": {}
+    },
+    {
+      "key": "18",
+      "name": "GRASIM",
+      "values": {
+        "stock_current" : 3656,
+        "stock_day_low" : 3652,
+        "stock_day_high": 3712,
+        "stock_sold"    : 962,
+        "diff"          : 2
+      },
+      "description_html": "",
+      "app_data": {}
+    },
+    {
+      "key": "19",
+      "name": "BAJAJ-AUTO",
+      "values": {
+        "stock_current" : 2028,
+        "stock_day_low" : 2026,
+        "stock_day_high": 2054.6,
+        "stock_sold"    : 20,
+        "diff"          : 0.02
+      },
+      "description_html": "",
+      "app_data": {}
+    },
+    {
+      "key": "20",
+      "name": "BHEL",
+      "values": {
+        "stock_current" : 257.5,
+        "stock_day_low" : 256.75,
+        "stock_day_high": 266.15,
+        "stock_sold"    : 10000,
+        "diff"          : 0.002
+      },
+      "description_html": "",
+      "app_data": {}
+    }
+  ]
+}
